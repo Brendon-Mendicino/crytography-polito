@@ -8,7 +8,7 @@
 #include <openssl/bn.h>
 
 
-#define BLOCK_SIZE (128)
+#define BLOCK_SIZE (16)
 
 
 void handle_errors(){

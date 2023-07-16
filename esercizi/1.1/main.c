@@ -6,7 +6,7 @@
 #include <openssl/rand.h>
 #include <openssl/err.h>
 
-#define MAX_BYTE_LEN 64
+#define MAX_BYTE_LEN 16
 
 void handle_errors(){
     ERR_print_errors_fp(stderr);

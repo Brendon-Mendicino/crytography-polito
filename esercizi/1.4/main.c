@@ -30,8 +30,8 @@ int main(int argc, char **argv) {
     BIGNUM *res = BN_new();
     BIGNUM *mod = BN_new();
 
-    BN_hex2bn(&mod, "100000000");
-
+    BN_add_word(mod, 1 << 32);
+    
     BN_rand(num1, 32, -1, 1);
     BN_rand(num2, 32, -1, 1);
 
